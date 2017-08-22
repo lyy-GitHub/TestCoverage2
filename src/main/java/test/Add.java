@@ -1,6 +1,10 @@
 package test;
 
 public class Add {
+	public static void main(String args[])
+	{
+	System.out.print(TestAdd(5,20));
+	}
 	public static int TestAdd(int x,int y)
 	{
 		int c=0;
